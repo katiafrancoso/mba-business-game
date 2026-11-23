@@ -39,7 +39,7 @@ flowchart LR
 Ordem de execução dos agentes: **Inteligência Competitiva + Mercado** → **Tecnologia** → **Operações** (usa a demanda estimada) → **Finanças** (usa todos os custos e receitas e roda o modelo de caixa) → **CEO**.
 
 ## Por onde começar
-1. [`entregaveis/Projeto_Agentico_Business_Game_Equipe3.pdf`](entregaveis/Projeto_Agentico_Business_Game_Equipe3.pdf): visão geral em 9 páginas.
+1. [`entregaveis/Projeto_Agentico_Business_Game_Equipe3.pdf`](entregaveis/Projeto_Agentico_Business_Game_Equipe3.pdf): visão geral em 9 páginas, ou a [apresentação em PowerPoint](entregaveis/Projeto_Agentico_Business_Game_Equipe3.pptx) (12 slides).
 2. [`rodadas/T2/T2_00_RECOMENDACAO_FINAL_CEO.md`](rodadas/T2/T2_00_RECOMENDACAO_FINAL_CEO.md): exemplo de saída do sistema.
 3. [`harness/00_HARNESS_LEIA_PRIMEIRO.md`](harness/00_HARNESS_LEIA_PRIMEIRO.md): como o projeto é operado.
 
@@ -50,7 +50,7 @@ harness/             regras de operação, comandos, templates, persistência, m
 rodadas/Tn/          saída dos agentes por trimestre
 registro/            decisões, perguntas ao professor, lições aprendidas, changelog
 docs/                arquitetura dos agentes e método da base de conhecimento
-entregaveis/         PDF de apresentação ao grupo + gerador
+entregaveis/         PDF e PowerPoint de apresentação ao grupo + geradores
 ```
 
 ## Componentes
