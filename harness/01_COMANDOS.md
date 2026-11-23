@@ -54,7 +54,7 @@ Basta digitar o comando (ou algo equivalente em linguagem natural) em qualquer c
   2. Indicadores de Mercado: tabela das 8 equipes (preço, vendedores, versão, share, ROE, endividamento).
   3. Comparar **previsto × realizado** (vendas, receita, caixa, custos) e explicar os desvios.
   4. Extrair **lições** sobre como o simulador reage (elasticidades, efeito dos vendedores e da propaganda, falta de produto etc.).
-- **Salvar:** `rodadas/Tn/Tn_99_POS_RODADA.md`; **reescrever** o `base-conhecimento/08_estado_atual_equipe3.md` (situação nova, histórico acrescido); novas lições em `registro/licoes_aprendidas.md`; correções de parâmetros nos docs 03, 05 e 07 se algum [observado] mudar; linha no `changelog_kb.md`.
+- **Salvar:** nova sessão em `registro/log_acesso_simulador.md` (se o navegador foi usado); `rodadas/Tn/Tn_99_POS_RODADA.md`; **reescrever** o `base-conhecimento/08_estado_atual_equipe3.md` (situação nova, histórico acrescido); novas lições em `registro/licoes_aprendidas.md`; correções de parâmetros nos docs 03, 05 e 07 se algum [observado] mudar; linha no `changelog_kb.md`.
 
 ## `/pergunta-instrutor`
 - **Salvar:** `registro/perguntas_instrutor.md`. Abrir uma pergunta nova ou registrar a resposta recebida; se a resposta mudar uma regra, propagar para a base e anotar no changelog.

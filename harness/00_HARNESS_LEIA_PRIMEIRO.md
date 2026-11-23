@@ -20,6 +20,7 @@ registro/                      ← memória viva do projeto
   perguntas_instrutor.md         dúvidas abertas e respostas do professor
   licoes_aprendidas.md           o que aprendemos sobre o simulador (calibração)
   changelog_kb.md                histórico de alterações da base
+  log_acesso_simulador.md        o que a IA fez no simulador (navegador) e como repetir
 docs/                          ← textos de vitrine (arquitetura dos agentes, método da base)
 claude/README.md               ← README de portfólio (no GitHub fica na raiz: README.md)
 entregaveis/                   ← SÓ NO GITHUB: PDF, PowerPoint e os scripts que os geram
