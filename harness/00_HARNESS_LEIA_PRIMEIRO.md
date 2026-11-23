@@ -2,7 +2,7 @@
 
 > O harness é a **camada de operação** do projeto: define **como** qualquer conversa (de qualquer membro da equipe, em qualquer dispositivo) usa a base de conhecimento, aciona os agentes e **salva tudo de volta**. Assim nada se perde entre conversas.
 
-## 1. Estrutura do Projeto
+## 1. Estrutura do Projeto (espelhada no GitHub)
 ```
 harness/                       ← como operar (este conjunto de arquivos)
   00_HARNESS_LEIA_PRIMEIRO.md    regras de ouro, estrutura e fluxo
@@ -20,7 +20,11 @@ registro/                      ← memória viva do projeto
   perguntas_instrutor.md         dúvidas abertas e respostas do professor
   licoes_aprendidas.md           o que aprendemos sobre o simulador (calibração)
   changelog_kb.md                histórico de alterações da base
+docs/                          ← textos de vitrine (arquitetura dos agentes, método da base)
+claude/README.md               ← README de portfólio (no GitHub fica na raiz: README.md)
+entregaveis/                   ← SÓ NO GITHUB: PDF, PowerPoint e os scripts que os geram
 ```
+> Arquivos binários (PDF, PPTX) não cabem nos documentos do Projeto: eles vivem apenas em `entregaveis/` no GitHub.
 
 ## 2. Regras de ouro (valem para qualquer conversa)
 1. **Ler antes de responder.** Comece por `harness/00`, `base-conhecimento/08_estado_atual_equipe3.md` e `registro/decisoes_log.md`. Para perguntas sobre regras, consulte os docs 01–07.
@@ -43,8 +47,20 @@ registro/                      ← memória viva do projeto
 ```
 
 ## 4. Status atual (atualizar a cada etapa)
+> Última atualização: **23/11/2026**
+
 | Item | Situação |
 |---|---|
 | Trimestre atual | **T2**: recomendações geradas em 22/11/2026; decisão da equipe **pendente** |
 | Próximo comando esperado | `/registrar-decisao T2` (após a reunião) |
-| Pendências críticas | Pedir ao instrutor o limite de empréstimo de longo prazo (R$ 100 mil) e o critério de avaliação (ver `registro/perguntas_instrutor.md`) |
+| Pendências críticas | Pedir ao instrutor o limite de empréstimo de longo prazo (R$ 100 mil) e o critério de avaliação (ver `registro/perguntas_instrutor.md`); prazo de entrega do T2 ainda não informado |
+| Configuração pendente | Colar `harness/INSTRUCOES_DO_PROJETO.md` nas instruções do Projeto no claude.ai; descrição e tópicos do repositório no GitHub (manual) |
+| Entregáveis prontos | `entregaveis/Projeto_Agentico_Business_Game_Equipe3.pdf` (9 págs.) e `.pptx` (6 slides, versão resumida) |
+| GitHub | https://github.com/katiafrancoso/mba-business-game · branch `main` · última versão em 23/11/2026 |
+| Melhoria oferecida, não feita | Análise competitiva por praça (como as 7 equipes podem se distribuir entre as praças) para refinar a alocação de vendedores e propaganda do T2 |
+| Decisões em aberto da equipe | Repositório em dois idiomas (PT/EN): aguardando decisão |
+
+## 5. Limitações conhecidas do sistema
+- O modelo não calcula a participação de mercado a partir das decisões (preço, vendedores, propaganda versus os 7 concorrentes). Os cenários fixam 10%, 12,5% ou 14% do mercado. **Calibrar com o resultado do T2** e registrar em `registro/licoes_aprendidas.md`.
+- Não se sabe se a demanda não atendida de um concorrente migra para outra equipe (ver `registro/perguntas_instrutor.md`).
+- O acesso ao simulador é feito pela extensão Claude in Chrome (ou pelo navegador do app), **somente leitura**. Sem navegador disponível, a equipe anexa os PDFs dos relatórios.

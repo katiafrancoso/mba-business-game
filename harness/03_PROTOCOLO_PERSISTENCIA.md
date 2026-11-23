@@ -16,6 +16,9 @@
 | Como o simulador reage (aprendizado) | `registro/licoes_aprendidas.md` | Template T6 |
 | Dúvidas e respostas do professor | `registro/perguntas_instrutor.md` | Template T7 |
 | Toda mudança na base | `registro/changelog_kb.md` | Template T8 |
+| Material para o grupo (PDF, PPTX) | `entregaveis/` **somente no GitHub** | Arquivo + script gerador; status no `harness/00` |
+| Textos de vitrine (arquitetura, método) | `docs/` | Projeto e GitHub |
+| README de portfólio | `claude/README.md` no Projeto = `README.md` no GitHub | Manter os dois iguais |
 
 ## Convenções de nome
 - Rodadas: `rodadas/T{n}/T{n}_{NN}_{descricao}.md`. Faixas de NN: 00 = CEO; 01–05 = agentes; 80 = ata; 90 = decisão tomada; 99 = pós-rodada.

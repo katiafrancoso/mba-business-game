@@ -14,6 +14,7 @@ Basta digitar o comando (ou algo equivalente em linguagem natural) em qualquer c
 | `/regra <tema>` | Responde dúvidas sobre as regras do jogo citando a base |
 | `/atualizar-kb` | Corrige ou acrescenta informação na base de conhecimento |
 | `/ata` | Registra o resumo de uma reunião da equipe |
+| `/entregavel <formato>` | Gera um material para o grupo (PDF ou PowerPoint) a partir do estado atual |
 | `/publicar` | Publica uma nova versão no GitHub (também roda automaticamente ao final dos demais comandos que salvam algo) |
 
 ---
@@ -69,12 +70,18 @@ Basta digitar o comando (ou algo equivalente em linguagem natural) em qualquer c
 ## `/ata`
 - **Salvar:** `rodadas/Tn/Tn_80_ATA_REUNIAO.md` (participantes, decisões, divergências, responsáveis, prazos).
 
+## `/entregavel <formato>`
+- **Formato:** `pdf` (documento explicativo) ou `pptx` (apresentação). Se não for informado, perguntar.
+- **Ler:** `harness/00` (status), o `rodadas/Tn/Tn_00` mais recente, `registro/decisoes_log.md`.
+- **Fazer:** atualizar o material existente em vez de criar outro do zero. Linguagem para quem não acompanhou o chat: o que foi feito, os agentes, as recomendações e os próximos passos. Conferir visualmente cada página ou slide antes de entregar.
+- **Salvar:** o arquivo e o script gerador em `entregaveis/` no GitHub (binários não cabem no Projeto); linha no `changelog_kb.md`; atualizar "Entregáveis prontos" no `harness/00`.
+
 ## `/publicar`
 - **Quando:** ao final de **todo** comando que salvou algo no Projeto, ou quando o usuário pedir.
 - **Fazer:**
   1. Conectar o repositório `katiafrancoso/mba-business-game` com acesso de escrita.
-  2. Clonar e espelhar os documentos alterados do Projeto nas mesmas pastas.
+  2. Clonar e espelhar os documentos alterados do Projeto nas mesmas pastas (`claude/README.md` do Projeto vai para `README.md` na raiz).
   3. Atualizar o `README.md` se necessário.
   4. Commit no formato `tipo(escopo): descrição` e push na `main`.
   5. Ao fechar um trimestre, criar a tag `T{n}-fechado`.
-- **Salvar:** linha no `registro/changelog_kb.md` citando o commit.
+- **Salvar:** linha no `registro/changelog_kb.md` citando o commit; atualizar a linha "GitHub" do Status no `harness/00`.
