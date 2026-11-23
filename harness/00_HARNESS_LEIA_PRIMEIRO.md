@@ -56,6 +56,7 @@ entregaveis/                   ← SÓ NO GITHUB: PDF, PowerPoint e os scripts q
 | Próximo comando esperado | `/registrar-decisao T2` (após a reunião) |
 | Pendências críticas | Pedir ao instrutor o limite de empréstimo de longo prazo (R$ 100 mil) e o critério de avaliação (ver `registro/perguntas_instrutor.md`); prazo de entrega do T2 ainda não informado |
 | Configuração pendente | Colar `harness/INSTRUCOES_DO_PROJETO.md` nas instruções do Projeto no claude.ai; descrição e tópicos do repositório no GitHub (manual) |
+| Análises salvas em 23/11 | Projeção de demanda T3–T5 por praça e segmento (`08_estado`) e ponto de equilíbrio por vendedor (`02_marketing`) |
 | Entregáveis prontos | `entregaveis/Projeto_Agentico_Business_Game_Equipe3.pdf` (9 págs.) e `.pptx` (6 slides, versão resumida) |
 | GitHub | https://github.com/katiafrancoso/mba-business-game · branch `main` · última versão em 23/11/2026 |
 | Melhoria oferecida, não feita | Análise competitiva por praça (como as 7 equipes podem se distribuir entre as praças) para refinar a alocação de vendedores e propaganda do T2 |

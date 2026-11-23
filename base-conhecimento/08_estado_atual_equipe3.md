@@ -63,6 +63,29 @@ Média por equipe: T3 ≈ 8.006 | T4 ≈ 8.865 | T5 ≈ 9.285.
 - **O caixa de R$ 32,5 mil não cobre a abertura de 4 escritórios, os vendedores, a propaganda e a produção.** O T2 depende de vendas majoritariamente à vista e/ou de uma linha de crédito negociada. Simule na tela Projeções antes de salvar.
 - Ainda não há preços, versões nem vendedores dos concorrentes (T1 sem vendas). O relatório de Indicadores do T2 trará esses dados, e convém comprá-lo de novo.
 
+### Projeção de demanda por praça e segmento, T3 a T5 [premissa]
+> O relatório só traz o total do mercado para T3–T5. A divisão abaixo mantém o mix de praças e segmentos do T2. Substituir pelos números reais quando chegar a pesquisa de demanda de cada trimestre.
+
+**Mercado (todas as equipes)**
+| Praça | T3 B | T3 P | T4 B | T4 P | T5 B | T5 P |
+|---|---|---|---|---|---|---|
+| SP | 15.291 | 6.555 | 16.932 | 7.258 | 17.735 | 7.602 |
+| BS | 10.594 | 5.704 | 11.730 | 6.316 | 12.286 | 6.615 |
+| CR | 4.735 | 7.101 | 5.243 | 7.863 | 5.492 | 8.236 |
+| BH | 8.441 | 5.628 | 9.347 | 6.232 | 9.790 | 6.528 |
+| **Total** | **39.061** | **24.988** | **43.252** | **27.669** | **45.303** | **28.981** |
+
+**Média por equipe (1/8)**
+| Praça | T3 B | T3 P | T4 B | T4 P | T5 B | T5 P |
+|---|---|---|---|---|---|---|
+| SP | 1.911 | 819 | 2.116 | 907 | 2.217 | 950 |
+| BS | 1.324 | 713 | 1.466 | 789 | 1.536 | 827 |
+| CR | 592 | 888 | 655 | 983 | 686 | 1.029 |
+| BH | 1.055 | 704 | 1.168 | 779 | 1.224 | 816 |
+| **Total** | **4.882** | **3.124** | **5.405** | **3.458** | **5.663** | **3.622** |
+
+[análise] Curitiba é a única praça majoritariamente Premium. O mercado cresce ~24% do T2 ao T5; a fábrica de 10.000 cobre a média até o T5 (~9.300), mas fica apertada com participação acima de 12,5%.
+
 ## Histórico (preencher a cada rodada)
 | Trimestre | Receita | Lucro líquido | Caixa final | Market share | Observações |
 |---|---|---|---|---|---|

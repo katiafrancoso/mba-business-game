@@ -76,3 +76,10 @@ Importância relativa de cada atributo por segmento. Os valores foram **lidos de
 - Com 1 vendedor: ~R$ 24 a 29 mil no 1º trimestre.
 - Com 2 vendedores: ~R$ 31 a 36 mil no 1º trimestre.
 - Nos trimestres seguintes: R$ 2.000 + 3.000 × N, mais a propaganda.
+
+## 11. Ponto de equilíbrio por vendedor [análise]
+O manual não informa quantos kits cada vendedor gera; isso será calibrado a partir do T2. O que dá para calcular:
+- Margem de contribuição de ~R$ 25 por kit Básico (R$ 50 − custo de R$ 19,50 − frete de R$ 3 − garantia), um pouco maior no Premium.
+- **Vendedor novo (contratação + salário = R$ 7 mil):** precisa gerar **~275 kits a mais** no trimestre para se pagar.
+- **Vendedor já contratado (salário de R$ 3 mil):** precisa gerar **~120 kits a mais** por trimestre.
+- Na recomendação do T2, a média implícita é de ~835 kits por vendedor (SP ~850, BS ~955, CR ~695, BH ~825), resultado de uma divisão e não de produtividade medida.
